@@ -43,7 +43,7 @@ class Match():
                     pt=max_pt
                     print(pt,w,h,max_value)
 
-                    threshold = float(ts)
+                    threshold = float(ts)*0.01
                     print("test:"+ts)
                     loc = np.where(result >= threshold)
                     

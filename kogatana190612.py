@@ -36,11 +36,11 @@ def sub_quit():
         #subprocess.run(('sudo','shutdown','-h','now'))       
 
 def value():
+     
+
     inp = Input()
     inp.main()
     print(inp.val)
-       
-
     
 # Buttonを設置してみる
 temp_crop_button = tk.Button(text='範囲選択',font=("",16),bg="LightBlue1",activeforeground = 'green',command=temp_crop)
@@ -67,8 +67,4 @@ root.mainloop()
 
 #if __name__ == '__main__':   
    
-
-
-
-
 
